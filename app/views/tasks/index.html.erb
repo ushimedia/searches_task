@@ -8,7 +8,7 @@
  
 <%= f.label :deadline, "期間"  %>
   <%= f.date_field :deadline_gteq %>〜
-  <%= f.date_field :deadline_lt %>
+  <%= f.date_field :deadline_lteq %>
 
   <%= f.label :status, "ステータス" %>
 　<%= f.radio_button :status_eq, '', {:checked => true} %>指定なし
